@@ -3,6 +3,7 @@ buildscript {
         google()
         gradlePluginPortal()
         mavenCentral()
+        maven("https://jitpack.io")
     }
 
     dependencies {

@@ -59,6 +59,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
+                groupId 'com.github.darwinmorocho-deuna'
+                artifactId 'deunasdk'
+                version '2.9.0'
             }
         }
     }
