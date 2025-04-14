@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "deuna-sdk-android"
-include(":sdk", ":example")
+//include(":sdk", ":example")
+include(":sdk")
