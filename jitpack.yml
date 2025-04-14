@@ -1,8 +1,5 @@
 jdk:
   - openjdk17
-
-install:
-  - ./gradlew :sdk:build
-
 subprojects:
   sdk:
+    - ./gradlew :sdk:build publishReleasePublicationToMavenRepository
