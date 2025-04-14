@@ -32,5 +32,6 @@ google-services.json
 # Android Profiling
 *.hprof
 **/.DS_Store
+sdk/gradle.properties
 examples/basic-integration/app/libs/*
 examples/basic-integration-jetpack-compose/app/libs/*
